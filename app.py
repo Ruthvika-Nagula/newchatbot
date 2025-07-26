@@ -9,7 +9,7 @@ genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-2.0-flash-lite")
 
 # ✅ Streamlit app settings
-st.set_page_config(page_title="Agent Ramana", page_icon="🤖", layout="wide")
+st.set_page_config(page_title="Agent Ruthvika", page_icon="🤖", layout="wide")
 
 # ✅ Custom CSS for chat layout
 st.markdown(
@@ -48,7 +48,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title("🤖 Agent Ramana")
+st.title("🤖 Agent Ruthvika")
 
 # ✅ Start session
 if "messages" not in st.session_state:
@@ -56,7 +56,7 @@ if "messages" not in st.session_state:
         {
             "role": "ai",
             "content": (
-                "Hey, I'm Ramana — your friendly personal companion 🤗. "
+                "Hey, I'm Ruthvika — your friendly personal companion 🤗. "
                 "You can share anything with me — your thoughts, dreams, problems, or just chat casually. "
                 "I'm always here to listen and talk like a friend 💬"
             )
